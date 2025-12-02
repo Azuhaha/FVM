@@ -1,7 +1,7 @@
 import os
 import numpy as np
-from FVM.InterpolateFromElementsToFaces import *
-from FVM.Class.FluidClass import BoundaryPatchRef
+from InterpolateFromElementsToFaces import *
+from Class.FluidClass import BoundaryPatchRef
 def definecontinuityequation(reg):
     if not os.path.exists(os.path.join(reg.caseDirectoryPath,'0','U')):
         raise Exception("0文件夹中p文件不存在")

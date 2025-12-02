@@ -1,9 +1,9 @@
-from FVM.Class.MeshClass import Mesh
-from FVM.Class.FoamDictionaryClass import FoamDictionary
-from FVM.Class.FluidClass import Fluid
-from FVM.Class.ModelClass import *
-from FVM.Class.FluxClass import *
-from FVM.Class.TimeClass import *
+from Class.MeshClass import Mesh
+from Class.FoamDictionaryClass import FoamDictionary
+from Class.FluidClass import Fluid
+from Class.ModelClass import *
+from Class.FluxClass import *
+from Class.TimeClass import *
 
 class Region:
     def __init__(self):

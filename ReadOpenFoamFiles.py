@@ -1,11 +1,11 @@
-from FVM.ReadPolyMesh import *
-from FVM.ProcessTopology import *
-from FVM.ReadSystem import *
-from FVM.ReadTimeDirectory import *
-from FVM.ReadTransportProperties import *
-from FVM.ReadThermophysicalProperties import *
-from FVM.ReadTurbulenceProperties import *
-from FVM.ReadGravity import *
+from ReadPolyMesh import *
+from ProcessTopology import *
+from ReadSystem import *
+from ReadTimeDirectory import *
+from ReadTransportProperties import *
+from ReadThermophysicalProperties import *
+from ReadTurbulenceProperties import *
+from ReadGravity import *
 
 def readopenfoamfiles(region):
 

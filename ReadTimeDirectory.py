@@ -1,6 +1,6 @@
 import os
 import numpy as np
-from FVM.Class.FluidClass import BoundaryPatchRef
+from Class.FluidClass import BoundaryPatchRef
 def readtimedirectory(reg):
     print('Reading OpenFoam time file...')
     if reg.foamDictionary.controlDict.startFrom=='startTime':

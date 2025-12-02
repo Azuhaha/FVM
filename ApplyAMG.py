@@ -1,4 +1,4 @@
-from FVM.Class.CoefficientClass import *
+from Class.CoefficientClass import *
 import numpy as np
 from SetupCoefficients import *
 from SolveAlgebraicSystem import *

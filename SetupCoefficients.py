@@ -1,5 +1,5 @@
 import numpy as np
-from FVM.Class.CoefficientClass import *
+from Class.CoefficientClass import *
 def setupCoefficients(reg,iLevel):
     reg.coefficient[iLevel]=Coefficient()
     if iLevel==0:

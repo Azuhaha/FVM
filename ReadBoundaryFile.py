@@ -1,4 +1,4 @@
-from FVM.Class.MeshClass import *
+from Class.MeshClass import *
 
 def readboundaryfile(mesh,path_boundaryfile):
     with open(path_boundaryfile,"r") as f:

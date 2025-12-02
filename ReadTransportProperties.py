@@ -1,6 +1,6 @@
 import os
 import numpy as np
-from FVM.Class.FluidClass import BoundaryPatchRef
+from Class.FluidClass import BoundaryPatchRef
 from UpdateScales import updatescale
 
 def readtransportproperties(reg):
